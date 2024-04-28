@@ -62,7 +62,9 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD_LCTRL";
             #binding-cells = <0>;
-            bindings = <&sticky_mod_tap LCTRL LCTRL>, <&kp LEFT_WIN>;
+            bindings =
+                <&sticky_mod_tap LCTRL LCTRL>,
+                <&sticky_mod_tap LEFT_WIN LEFT_WIN>;
         };
 
         sticky_mod_tap: sticky_mod_tap {
