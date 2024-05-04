@@ -34,8 +34,6 @@
             label = "TD_ALT";
             #binding-cells = <0>;
             bindings = <&smt LALT LALT>, <&smt LALT LALT>;
-
-            tapping-term-ms = <150>;
         };
 
         td_quot: td_quot {
@@ -43,8 +41,6 @@
             label = "TD_QUOT";
             #binding-cells = <0>;
             bindings = <&kp SQT>, <&kp DQT>;
-
-            tapping-term-ms = <150>;
         };
 
         td_semicolon: td_semicolon {
@@ -52,8 +48,6 @@
             label = "TD_SEMICOLON";
             #binding-cells = <0>;
             bindings = <&kp SEMI>, <&kp COLON>;
-
-            tapping-term-ms = <150>;
         };
 
         td_rshift: td_rshift {
@@ -61,8 +55,6 @@
             label = "TD_RSHIFT";
             #binding-cells = <0>;
             bindings = <&smt RSHFT RSHIFT>, <&caps_word>;
-
-            tapping-term-ms = <150>;
         };
 
         td_lctrl: td_lctrl {
@@ -70,8 +62,6 @@
             label = "TD_LCTRL";
             #binding-cells = <0>;
             bindings = <&smt LCTRL LCTRL>, <&smt LEFT_WIN LEFT_WIN>;
-
-            tapping-term-ms = <150>;
         };
 
         smt: smt {
@@ -90,8 +80,6 @@
             label = "TD_SPC";
             #binding-cells = <0>;
             bindings = <&kp SPACE>, <&kp TAB>;
-
-            tapping-term-ms = <150>;
         };
     };
 
